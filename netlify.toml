@@ -1,5 +1,5 @@
 [build]
-  command = "yarn run build"
+  command = "yarn build"
   publish = "dist"
 
 ## more info https://docs.netlify.com/configure-builds/file-based-configuration/#sample-file
