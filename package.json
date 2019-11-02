@@ -9,12 +9,13 @@
     "parcel": "^1.12.4"
   },
   "dependencies": {
+    "gatsby": "^2.17.7",
     "react": "^16.11.0",
     "react-dom": "^16.11.0"
   },
   "scripts": {
     "start": "parcel src/index.html",
-    "prebuild": "echo $MY_SECRET",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html",
+    "build:gatsby": "gatsby build"
   }
 }
