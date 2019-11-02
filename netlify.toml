@@ -2,4 +2,9 @@
   command = "yarn build"
   publish = "dist"
 
+[dev]
+  port = 1234
+  command = "yarn start"
+  publish = "src"
+
 ## more info https://docs.netlify.com/configure-builds/file-based-configuration/#sample-file
